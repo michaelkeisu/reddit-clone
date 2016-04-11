@@ -1,0 +1,24 @@
+group 'com.keisu'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.7.3'
+    compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+    compile 'org.eclipse.jetty:jetty-webapp:9.3.8.v20160314'
+    compile 'org.springframework:spring-core:4.2.5.RELEASE'
+    compile 'org.springframework:spring-web:4.2.5.RELEASE'
+    compile 'org.springframework:spring-webmvc:4.2.5.RELEASE'
+    compile 'com.fasterxml.jackson.core:jackson-core:2.7.3'
+    compile 'org.jmockit:jmockit:1.22'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
