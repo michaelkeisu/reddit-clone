@@ -1,5 +1,6 @@
 /out
+/build
 .idea
 .gradle
 src/main/webapp/node_modules
-npm-debug.log
+src/main/webapp/npm-debug.log
