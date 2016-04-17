@@ -14,19 +14,19 @@ public class PostController {
 
     @RequestMapping(value = "/post", method = RequestMethod.POST)
     public ResponseEntity<Post> createPost(@RequestBody Post post) {
-        System.out.println(post.getId());
-        System.out.println(post.getLink());
+        // TODO create real implementation
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
 
     @RequestMapping(value = "/posts", method = RequestMethod.GET)
-    public List<Post> listPosts() {
-        return Arrays.asList(
+    public ResponseEntity<List<Post>> listPosts() {
+        // TODO create real implementation
+        return new ResponseEntity<>(Arrays.asList(
                 new Post(1, "http://twitter.com", "janedoe"),
                 new Post(2, "http://facebook.com", "billdoe"),
                 new Post(3, "http://idg.se", "johndoe")
-        );
+        ), HttpStatus.OK);
     }
 
 
