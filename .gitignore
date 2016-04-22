@@ -3,4 +3,5 @@
 .idea
 .gradle
 src/main/webapp/node_modules
+src/main/webapp/app/js
 src/main/webapp/npm-debug.log

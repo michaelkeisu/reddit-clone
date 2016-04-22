@@ -4,6 +4,12 @@
   "description": "angular 2 app with java backend",
   "author": "Michael Keisu",
   "license": "ISC",
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
   "dependencies": {
     "angular2": "^2.0.0-beta.14",
     "systemjs": "0.19.25",
