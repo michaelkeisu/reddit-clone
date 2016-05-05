@@ -6,8 +6,9 @@ server environment, without having to install external software such as tomcat, 
 
 * Java
 * Embedded Jetty
-* H2 (Embedded)
+* H2 database (Embedded)
 * Spring REST api
 * Spring Data
 * Angular 2
-
+* TypeScript (to be used along with Angular 2)
+* Node.js (for management of frontend dependencies)
