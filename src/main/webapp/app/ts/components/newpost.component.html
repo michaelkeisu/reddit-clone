@@ -1,0 +1,12 @@
+
+<form>
+    <fieldset class="form-group">
+        <label for="user">User</label>
+        <input [(ngModel)]="model.user" type="text" class="form-control" id="user" placeholder="Name">
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="link">Link:</label>
+        <input [(ngModel)]="model.link" type="text" class="form-control" id="link" placeholder="Link">
+    </fieldset>
+    <input (click)="newPost()" type="button" class="btn btn-default" value="Post">
+</form>
