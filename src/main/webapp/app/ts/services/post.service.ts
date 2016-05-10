@@ -3,10 +3,7 @@ import {Http} from 'angular2/http';
 
 @Injectable()
 export class PostService {
-    private _http;
-
-    constructor(@Inject(Http) http:Http) {
-        this._http = http;
+    constructor(@Inject(Http) private _http:Http) {
     }
 
     getPosts() {

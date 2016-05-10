@@ -9,7 +9,7 @@ export class NewPostComponent {
     model: Post;
 
     constructor() {
-        this.model = new Post(null, null);
+        this.model = new Post();
     }
 
     public newPost() {
