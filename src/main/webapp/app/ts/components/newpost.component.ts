@@ -3,13 +3,13 @@ import {Post} from '../models/post';
 
 @Component({
     selector: 'new-post',
-    templateUrl: '/app/ts/components/newpost.component.html',
+    templateUrl: '/app/ts/components/newpost.component.html'
 })
 export class NewPostComponent {
     model: Post;
 
     constructor() {
-        this.model = new Post();
+        this.model = new Post(null, null);
     }
 
     public newPost() {
