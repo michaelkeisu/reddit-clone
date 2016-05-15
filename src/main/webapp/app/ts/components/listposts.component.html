@@ -1,3 +1,5 @@
-<p *ngFor="let post of posts">
-    {{post.link}}
-</p>
+<div *ngFor="let post of posts" class="row">
+    <div class="post col-md-5">
+        {{post.link}} posted by {{post.user}}
+    </div> <!-- / .col -->
+</div> <!-- / .row -->

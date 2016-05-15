@@ -1,20 +1,20 @@
 export class Post {
-    private _link:string;
-    private _user:string;
+    private link:string;
+    private user:string;
 
-    public set link(link:string) {
-        this._link = link;
+    public set setLink(link:string) {
+        this.link = link;
     }
 
-    public get link():string {
-        return this._link;
+    public get getLink():string {
+        return this.link;
     }
 
-    public set user(user:string) {
-        this._user = user;
+    public set setUser(user:string) {
+        this.user = user;
     }
 
-    public get user(): string {
-        return this._user;
+    public get getUser(): string {
+        return this.user;
     }
 }

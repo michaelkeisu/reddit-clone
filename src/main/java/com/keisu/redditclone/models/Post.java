@@ -1,10 +1,20 @@
 package com.keisu.redditclone.models;
 
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Post {
+    @Id
+    @GeneratedValue
     private long id;
     private String link;
-    private String user; // make object
+    private String user;
 
     public Post(){}
 

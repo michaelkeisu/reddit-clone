@@ -1,0 +1,1 @@
+CREATE TABLE post (link VARCHAR(100), user VARCHAR(70));
