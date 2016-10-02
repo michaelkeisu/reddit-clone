@@ -1,3 +1,4 @@
+*** Abandoned. I only keep it as reference in case I want to set up a project with a similar stack ***
 
 Description:
 
